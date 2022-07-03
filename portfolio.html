@@ -244,6 +244,8 @@
             dataType : "html",
             type : "post",  // post 또는 get
             success : function(result){
+                console.log("성공");
+                console.log(result);
                 $("#mainContent").html(result);
             }
         });
